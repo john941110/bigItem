@@ -5,9 +5,11 @@ $(function(){
     $('#escBtn').on('click',function(){
         layui.layer.confirm('确定退出登录?', {icon: 3, title:'提示'}, function(index){
             //do something
+            //本地删除token证书
             localStorage.removeItem('token')
+            //跳转至login页面
             location.href = 'login.html'
-            
+
             layer.close(index);
           });
     })

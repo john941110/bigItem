@@ -1,0 +1,10 @@
+body{
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+.layui-card{
+    margin: 15px;
+}
+.layui-form-item{
+    width: 500px;
+}
