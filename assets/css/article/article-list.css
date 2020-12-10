@@ -1,0 +1,21 @@
+body{
+    /* padding: 15px; */
+    background-color: #f4f4f4;
+    /* overflow: hidden; */
+}
+.layui-card{
+    margin: 15px;
+}
+.layui-card-body{
+    margin-top: -10px;
+}
+.layui-form{
+    margin: 15px;
+    margin-bottom: 0px;
+}
+#form-search .layui-form-item{
+    margin-right: 10px;
+}
+#pageBox{
+    text-align: center;
+}
